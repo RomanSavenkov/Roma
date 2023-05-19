@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+background-image:url(https://kartinkin.net/uploads/posts/2020-07/1593660243_67-p-foni-dlya-saita-93.jpg);
+
+
+
+}
+a{          
+    color: darkred;
+    text-decoration: none; 
+    background-color: magenta;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 1s;
+
+
+}
+a:hover{
+    color: black;
+    background-color: cornflowerblue;
+    border: lpx solid black;
+}
+.qwer{
+    color: red;
+                
+}
+.qwet{
+    color: red;
+}
+.yui{
+    width: "200";
+    height: "150";
+    margin-right: auto;
+}
+
+
+.zxc{
+    color: red;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+.qwerty{
+    color: red;
+    margin-top:10px ;
+
+}   
+.meny{
+    
+    display: flex;
+
+}                                 
+.meny p{
+    margin-right: 200px;
+    font-size: 18px;
+}
+section{
+    display: flex;
+}
+section img{
+    width: 50%;
+
+}
+section p{
+    width: 50%;
+}
+
+@media(max-wight: 768px){
+    section p{
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
